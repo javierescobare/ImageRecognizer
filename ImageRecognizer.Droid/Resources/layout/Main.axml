@@ -3,11 +3,19 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    >
-<Button  
-    android:id="@+id/MyButton"
-    android:layout_width="match_parent" 
-    android:layout_height="wrap_content" 
-    android:text="@string/Hello"
-    />
+    android:gravity="center">
+  <TextView
+      android:id="@+id/titleText"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Hola! Qué imagen analizaremos hoy?"
+      android:gravity="center_horizontal"
+      android:textSize="24dp"
+      android:layout_margin="10dp" />
+  <Button
+      android:id="@+id/btnCapturePicture"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Tomar foto"
+      android:layout_gravity="center_horizontal" />
 </LinearLayout>
